@@ -55,7 +55,7 @@ public class Actividad3 extends AppCompatActivity {
     }
     public void dialogo(View view){
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setMessage("Este es mi dialogo")
+        builder.setMessage("Este es mi primer dialogo")
                 .setTitle("Mi primer dialogo...")
                 .setCancelable(false)
                 .setNeutralButton("Aceptar",
